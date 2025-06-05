@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galley Grub</title>
+</head>
+<body>
+    <header>
+        <h1>The Krusty Krab</h1>
+        <nav>
+            <ul>
+                <li><a href="#menu-section">Menu</a></li>
+                <li><a href="#order-section">Order Form</a></li>
+                <li><a href="#contact-section">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Menu</h2>
+            <h3>The Krabby Patty</h3>
+            <img width="200" src="https://static.wikia.nocookie.net/spongebob/images/8/84/Krabby_Patty_icon.png/revision/latest/scale-to-width-down/95?cb=20181227190549"/>
+            <p>The Krabby Patty is the Krusty Krab's signature and popular food item. It is a meatless hamburger of sorts made from buns, undersea vegetables, mustard and ketchup, and a patty; it can also be ordered with cheese</p>
+            <hr width=95%/>
+            <h3>Kelp Rings</h3>
+            <img width="200" src="https://static.wikia.nocookie.net/spongebob/images/7/7f/Kelp_Fries.jpeg/revision/latest/scale-to-width-down/95?cb=20241214214247"/>
+            <p>French fries that seem to be made up of kelp.</p>
+            <hr width=95%/>
+            <h3>Krusty Krab Pizza</h3>
+            <img width="200" src="https://static.wikia.nocookie.net/spongebob/images/5/5f/Krusty_Krab_Pizza.png/revision/latest/scale-to-width-down/95?cb=20230812043541"/>
+            <p>A pizza made out of smashed Krabby Patties.</p>
+            <hr/>
+        </section>
+        <section>
+            <h2>Place Your Order:</h2>
+            <form>
+                <label for="menu-item">Krabby Patty </label><input type="number" min="0" max="10"><br/><br/>
+                Add-ons for your patty?<br/>
+                <input type="checkbox" name="option"> Cheese <br/>
+                <input type="checkbox" name="option"> Extra Patty ($2)<br/>
+                <input type="checkbox" name="option"> Add Jellyfish Jelly <br/><br/>
+                <label for="menu-item">Kelp Rings </label><input type="number" min="0" max="10"><br/><br/>
+                <label for="menu-item">Krusty Krab Pizza </label><input type="number" min="0" max="10"><br/><br/>
+                Any special requests? <br/><br/>
+                <textarea id="data-entry" rows="7" cols="42"  placeholder="EX: allergies, topping modifications, etc"></textarea>
+                <br/><br/>
+                <input type="submit" value="Go To Checkout!">
+                <br><br/>
+            </form>
+        </section>
+    </main>
+    <footer>
+        Made with love by @sarahlibx
+    </footer>
+</body>
+</html>
