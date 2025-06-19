@@ -1,0 +1,21 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: black;
+}
+
+.nav-list {
+    list-style-type: none;
+}
+
+h1 {
+    color: #EE82EE;
+}
+
+footer {
+    color: #EE82EE;
+}
+
+.contact-list {
+    list-style-type: none;
+}
