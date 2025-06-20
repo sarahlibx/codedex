@@ -5,17 +5,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Personal Site</title>
   <link href="styles.css" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
   <header>
-    <nav>
+    <nav class="nav-bar">
         <ul class="nav-list">
-            <li><a href="#about-section">About</a></li>
-            <li><a href="#projects-section">Projects</a></li>
-            <li><a href="#contact-section">Contact</a></li>
+            <li class="nav-item"><a href="#about-section">About</a></li>
+            <li class="nav-item"><a href="#projects-section">Projects</a></li>
+            <li class="nav-item"><a href="#contact-section">Contact</a></li>
         </ul>
     </nav>
-    <h1>Sarah Smith Personal Portfolio</h1>
+    <h1 class="header">Sarah Smith Personal Portfolio</h1>
   </header>
   <main>
     <section id="about-section">
@@ -27,8 +30,14 @@
     </section>
     <section id="projects-section">
         <h2>Projects</h2>
-            <p>A "Projects" or "Work" section that showcases your awesome projects and includes a link to the source code (and perhaps one for a demo).
-            </p>
+            <ul class="projects-list">
+                <li class="projects">
+                    <a href="https://sarahlibx.github.io/guess-the-word/" target="_blank"><img src='assets/guess-the-word.png' alt="Guess The Word Game" class="portfolio"></a>
+                </li>
+                <li class="projects">
+                    <a href="https://sarahlibx.github.io/git-repo-gallery-page/" target="_blank"><img src='assets/github-repo-gallery.png' alt="GitHub Repo Gallery" class="portfolio"></a>
+                </li>
+            </ul>    
         <div class="skills-tools-grid">
             <!-- insert skills & tools icons grid here -->
         </div>
@@ -36,14 +45,15 @@
     <section id="contact-section">
         <h2>Let's get in touch!</h2>
         <ul class="contact-list">
-            <li>Email</li>
-            <li>Github</li>
-            <li>LinkedIn</li>
+            <li class="contact-icons"><a href='https://github.com/sarahlibx' target="_blank"><i class="fa-brands fa-square-github" alt="GitHub"></i></a></li>
+            <li class="contact-icons"><a href='mailto:sarahlib90@gmail.com' target='_blank'><i class="fa-solid fa-envelope" alt="email me"></i></a></li>
+            <li class="contact-icons"><a href="https://www.linkedin.com/in/sarahsmithdeveloper/" target="_blank"><i class="fa-brands fa-linkedin" alt="LinkedIn" class="icons"></i></a></li>
         </ul>
     </section>
   </main>
   <footer class="footer-wrapper">
     Made with love by @sarahlibx 🤍
   </footer>
+  <script src="https://kit.fontawesome.com/be96357421.js" crossorigin="anonymous"></script>
 </body>
 </html>
